@@ -9,7 +9,9 @@
     "test:coverage": "node ./node_modules/jest/bin/jest --coverage",
     "test:updateSnapshot": "node ./node_modules/jest/bin/jest --updateSnapshot",
     "test:full": "node ./node_modules/jest/bin/jest --watch --coverage",
-    "postinstall": "node ./node_modules/bower/bin/bower install"
+    "postinstall": "node ./node_modules/bower/bin/bower install",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "hacktoberfest"
@@ -26,9 +28,14 @@
     "lodash": "^3.10.1",
     "marked": "^0.3.6",
     "memory-cache": "^0.1.4",
-    "q": "^1.4.1"
+    "q": "^1.4.1",
+    "snyk": "^1.46.0"
   },
-    "jest": {
-        "preprocessorIgnorePatterns": ["node_modules", "bower_components"]
-    }
+  "jest": {
+    "preprocessorIgnorePatterns": [
+      "node_modules",
+      "bower_components"
+    ]
+  },
+  "snyk": true
 }
