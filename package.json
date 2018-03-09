@@ -22,13 +22,16 @@
     "express-handlebars": "^2.0.1",
     "github": "^0.2.4",
     "helper-timeago": "^0.1.0",
-    "jest": "^16.0.1",
+    "jest": "^19.0.0",
     "lodash": "^3.10.1",
     "marked": "^0.3.6",
     "memory-cache": "^0.1.4",
     "q": "^1.4.1"
   },
-    "jest": {
-        "preprocessorIgnorePatterns": ["node_modules", "bower_components"]
-    }
+  "jest": {
+    "preprocessorIgnorePatterns": [
+      "node_modules",
+      "bower_components"
+    ]
+  }
 }
