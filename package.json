@@ -24,7 +24,7 @@
     "helper-timeago": "^0.1.0",
     "jest": "^16.0.1",
     "lodash": "^3.10.1",
-    "marked": "^0.3.6",
+    "marked": "^0.6.2",
     "memory-cache": "^0.1.4",
     "q": "^1.4.1"
   },
