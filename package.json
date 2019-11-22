@@ -19,7 +19,7 @@
   "dependencies": {
     "bower": "^1.5.3",
     "express": "^4.13.3",
-    "express-handlebars": "^2.0.1",
+    "express-handlebars": "^3.0.0",
     "github": "^0.2.4",
     "helper-timeago": "^0.1.0",
     "jest": "^16.0.1",
